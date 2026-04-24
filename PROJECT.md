@@ -25,23 +25,60 @@ AI彼女を探している初心者、比較検討層、性格別に探したい
 - 最後に性格別・ニーズ別ロングテール
 - 実体験、会話例、比較表、FAQを重視する
 
-## Content Types
-- おすすめ記事
-- 比較記事
-- レビュー記事
-- 性格別記事
-- キャラ個別記事
-- FAQ記事
+## Content Types（実装済み）
+- おすすめ記事（articles/）
+- 比較記事（compare/）
+- レビュー記事（reviews/）
+- タグ・カテゴリページ（tags/）
+- プライバシーポリシー・免責事項（静的ページ）
 
-## Site Structure
-- Home
-- Article list
-- Article detail
-- Category page
-- Comparison page
-- Review page
-- Character page
-- Tag page
+## Site Structure（実装済み）
+```
+/                        トップページ
+/articles                記事一覧
+/articles/[slug]         記事詳細
+/reviews                 レビュー一覧
+/reviews/[slug]          レビュー詳細
+/compare                 比較記事一覧
+/compare/[slug]          比較記事詳細
+/tags                    カテゴリ一覧
+/tags/[tag]              カテゴリ別記事一覧
+/privacy                 プライバシーポリシー
+/disclaimer              免責事項
+```
+
+## コンテンツ（実装済み）
+```
+content/
+├── articles/
+│   ├── ai-kanojo-compare.mdx
+│   ├── ai-kanojo-osusume-2025.mdx
+│   └── replika-review.mdx
+├── reviews/
+│   ├── character-ai-review.mdx
+│   ├── crushon-ai-review.mdx
+│   └── replika-review.mdx
+└── compare/
+    ├── character-ai-vs-replika.mdx
+    └── free-ai-kanojo-compare.mdx
+```
+
+## Tech Stack
+- Next.js 15（App Router, Static Export）
+- TypeScript
+- Tailwind CSS v4
+- MDX（gray-matter + next-mdx-remote）
+- GitHub Pages（プレビュー・本番）
+- Netlify（サブ。Vercelは不正トラブルにより使用不可）
+- GitHub public repo: https://github.com/slee444/ai-kanojo-navi
+- プレビューURL: https://slee444.github.io/ai-kanojo-navi/
+
+## SEO実装済み
+- sitemap.xml / robots.txt（自動生成）
+- JSON-LD（Article, FAQPage, BreadcrumbList）
+- OGP / Twitter Card
+- パンくずナビ
+- 関連記事クロスリンク
 
 ## Design Principles
 - シンプル
@@ -51,15 +88,6 @@ AI彼女を探している初心者、比較検討層、性格別に探したい
 - 量産しやすい
 - 保守しやすい
 - 過剰に凝らない
-
-## Tech Stack
-- Next.js
-- TypeScript
-- Tailwind CSS
-- App Router
-- MDX for articles
-- Netlify deployment（Vercelは不正トラブルにより使用不可）
-- GitHub public repo
 
 ## Constraints
 - MVP優先
@@ -75,3 +103,4 @@ MVP完成（2026-04）。次フェーズの候補:
 - アフィリエイトリンク解禁
 - 記事本数の拡充
 - Google Search Console / Analytics 設置
+- カスタムドメイン設定
