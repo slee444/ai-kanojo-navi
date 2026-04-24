@@ -31,7 +31,7 @@ jobs:
 
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /ai-kanojo-navi
+          NEXT_PUBLIC_SITE_URL: https://ai-kanojo-navi.com
 
       - uses: actions/upload-pages-artifact@v3
         with:
