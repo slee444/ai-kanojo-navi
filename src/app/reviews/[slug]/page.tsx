@@ -24,7 +24,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const { meta } = getArticleBySlug("reviews", slug);
-  return buildMetadata({ title: meta.title, description: meta.description, path: `/reviews/${slug}` });
+  return buildMetadata({ title: meta.title, description: meta.description, path: `/reviews/${slug}`, slug });
 }
 
 function RatingBar({ label, value }: { label: string; value: number }) {

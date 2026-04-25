@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const { meta } = getArticleBySlug("articles", slug);
-  return buildMetadata({ title: meta.title, description: meta.description, path: `/articles/${slug}` });
+  return buildMetadata({ title: meta.title, description: meta.description, path: `/articles/${slug}`, slug });
 }
 
 export default async function ArticlePage({ params }: Props) {

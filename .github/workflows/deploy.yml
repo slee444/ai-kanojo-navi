@@ -29,6 +29,8 @@ jobs:
 
       - run: npm ci
 
+      - run: node scripts/generate-ogp.mjs
+
       - run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://ai-kanojo-navi.com

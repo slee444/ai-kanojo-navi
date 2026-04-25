@@ -35,7 +35,12 @@ $ARGUMENTS
 ## 作成後の処理
 
 1. `content/{type}/{slug}.mdx` に保存する
-2. ビルドを確認する: `npm run build`
-3. エラーがなければ内容をユーザーに提示してレビューを求める
-4. ユーザーから承認（「OK」「公開して」等）を得てから git add・commit・push する
-5. 完了後にプレビューURL（https://ai-kanojo-navi.com/{type}/{slug}）を表示する
+2. `node scripts/generate-ogp.mjs` を実行して OGP 画像を生成する
+3. `/ai-navi-images {type}/{slug}` の手順に従って記事内画像を追加する
+4. ビルドを確認する: `npm run build`
+5. エラーがなければ以下をユーザーに提示してレビューを求める：
+   - 記事タイトル・slug・文字数
+   - 構成（見出し一覧）
+   - 追加した画像一覧
+6. ユーザーから承認（「OK」「公開して」等）を得てから git add・commit・push する
+7. 完了後にプレビューURL（https://ai-kanojo-navi.com/{type}/{slug}）を表示する

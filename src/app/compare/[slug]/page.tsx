@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const { meta } = getArticleBySlug("compare", slug);
-  return buildMetadata({ title: meta.title, description: meta.description, path: `/compare/${slug}` });
+  return buildMetadata({ title: meta.title, description: meta.description, path: `/compare/${slug}`, slug });
 }
 
 export default async function ComparePage({ params }: Props) {
