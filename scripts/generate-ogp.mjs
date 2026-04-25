@@ -13,7 +13,7 @@ async function getFont() {
   if (!fs.existsSync(fontPath)) {
     console.log("Downloading NotoSansJP font...");
     const res = await fetch(
-      "https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf"
+      "https://github.com/notofonts/noto-cjk/raw/main/Sans/SubsetOTF/JP/NotoSansJP-Bold.otf"
     );
     const buf = await res.arrayBuffer();
     fs.writeFileSync(fontPath, Buffer.from(buf));
