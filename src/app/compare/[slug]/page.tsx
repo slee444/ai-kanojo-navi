@@ -72,11 +72,20 @@ export default async function ComparePage({ params }: Props) {
                 <dd>{service.priceFrom}〜</dd>
               </div>
             </dl>
-            <span
-              className="block text-xs font-medium bg-gray-200 text-gray-400 py-2 rounded-lg cursor-not-allowed"
-            >
-              試してみる →
-            </span>
+            {service.affiliateUrl ? (
+              <a
+                href={service.affiliateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-xs font-medium bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 transition-colors"
+              >
+                {service.name} を試す →
+              </a>
+            ) : (
+              <span className="block text-xs font-medium bg-gray-200 text-gray-400 py-2 rounded-lg cursor-not-allowed">
+                試してみる →
+              </span>
+            )}
           </div>
         ))}
       </div>
