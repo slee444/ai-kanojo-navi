@@ -12,6 +12,9 @@ import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
 import AuthorCard from "@/components/author/AuthorCard";
 import ArticleDisclaimer from "@/components/article/ArticleDisclaimer";
+import ConversationExample from "@/components/article/ConversationExample";
+
+const mdxComponents = { ConversationExample };
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -110,7 +113,7 @@ export default async function ComparePage({ params }: Props) {
 
       {/* 導入文・本文 */}
       <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 mb-8">
-        <MDXRemote source={content} />
+        <MDXRemote source={content} components={mdxComponents} options={{ blockJS: false }} />
       </div>
 
       <AuthorCard />
