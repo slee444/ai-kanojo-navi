@@ -162,7 +162,7 @@ export default async function ReviewPage({ params }: Props) {
 
       {/* 本文 */}
       <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 prose-table:text-sm mb-8">
-        <MDXRemote source={content} components={mdxComponents} />
+        <MDXRemote source={content} components={mdxComponents} options={{ blockJS: false }} />
       </div>
 
       <AuthorCard />
