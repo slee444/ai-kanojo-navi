@@ -14,8 +14,8 @@ AI彼女を探している初心者、比較検討層、性格別に探したい
 将来的にAI彼氏を探す女性層も扱う可能性あり。ただし初期は男性向けに集中する。
 
 ## Monetization
-- アフィリエイト
-- 広告
+- 将来的にアフィリエイト
+- 将来的に広告
 - 将来的に独自のキャラDBや比較DB
 - 将来的にスポンサー掲載
 
@@ -64,14 +64,13 @@ content/
 ```
 
 ## Tech Stack
-- Next.js 15（App Router, Static Export）
+- Next.js 15（App Router, SSG）
 - TypeScript
 - Tailwind CSS v4
-- MDX（gray-matter + next-mdx-remote）
-- GitHub Pages（プレビュー・本番）
-- Netlify（サブ。Vercelは不正トラブルにより使用不可）
+- MDX（gray-matter + next-mdx-remote v6）
+- Vercel（本番ホスティング、無料Hobbyプラン）
 - GitHub public repo: https://github.com/slee444/ai-kanojo-navi
-- プレビューURL: https://slee444.github.io/ai-kanojo-navi/
+- 本番URL: https://ai-kanojo-navi.com
 
 ## SEO実装済み
 - sitemap.xml / robots.txt（自動生成）
@@ -98,9 +97,8 @@ content/
 - 実装対象以外は触らない
 
 ## Current Scope
-MVP完成（2026-04）。次フェーズの候補:
+MVP完成・本番公開済み（2026-04）。次フェーズの候補:
 - 画像対応（next/image + アイキャッチ）
 - アフィリエイトリンク解禁
 - 記事本数の拡充
 - Google Search Console / Analytics 設置
-- カスタムドメイン設定
