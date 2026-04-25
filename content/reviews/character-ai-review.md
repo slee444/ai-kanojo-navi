@@ -25,7 +25,7 @@ cons:
   - "成人向けコンテンツは制限あり"
   - "記憶の持続性が弱い（会話をまたいで忘れる）"
   - "有料プランの恩恵が限定的"
-affiliateUrl: "https://character.ai"
+url: "https://character.ai"
 toc:
   - { id: "what", label: "Character.AIとは" }
   - { id: "experience", label: "実際に使った体験談" }

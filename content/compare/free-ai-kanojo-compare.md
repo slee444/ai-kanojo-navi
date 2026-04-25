@@ -7,17 +7,17 @@ tags: ["比較", "無料", "初心者向け"]
 eyecatch: "/images/compare/free-ai-kanojo-compare/eyecatch.jpg"
 services:
   - name: "Character.AI"
-    affiliateUrl: "https://character.ai"
+    url: "https://character.ai"
     free: true
     priceFrom: "¥1,500/月"
     rating: 4.2
   - name: "Replika"
-    affiliateUrl: "https://replika.com"
+    url: "https://replika.com"
     free: true
     priceFrom: "¥2,200/月"
     rating: 3.8
   - name: "Candy AI"
-    affiliateUrl: "https://candy.ai"
+    url: "https://candy.ai"
     free: true
     priceFrom: "¥900/月"
     rating: 3.9

@@ -6,12 +6,12 @@ updatedAt: "2026-04-25"
 tags: ["比較", "Character.AI", "Replika"]
 services:
   - name: "Character.AI"
-    affiliateUrl: "https://character.ai"
+    url: "https://character.ai"
     free: true
     priceFrom: "¥1,500/月"
     rating: 4.2
   - name: "Replika"
-    affiliateUrl: "https://replika.com"
+    url: "https://replika.com"
     free: true
     priceFrom: "¥2,200/月"
     rating: 3.8

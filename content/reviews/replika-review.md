@@ -25,7 +25,7 @@ cons:
   - "日本語の返答精度が低い（英語推奨）"
   - "ロールプレイ・音声通話は有料限定"
   - "有料プランが高め（月2,200円〜）"
-affiliateUrl: "https://replika.com"
+url: "https://replika.com"
 toc:
   - { id: "what", label: "Replikaとは" }
   - { id: "experience", label: "実際に使った体験談" }

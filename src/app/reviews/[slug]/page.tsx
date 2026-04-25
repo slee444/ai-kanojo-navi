@@ -78,9 +78,15 @@ export default async function ReviewPage({ params }: Props) {
       </div>
 
       {/* アイキャッチ */}
-      <div aria-hidden="true" className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl h-48 flex items-center justify-center mb-8 text-gray-400 text-sm">
-        アイキャッチ画像
-      </div>
+      {meta.eyecatch ? (
+        <div className="mb-8">
+          <img src={meta.eyecatch} alt={meta.title} className="w-full rounded-xl object-cover max-h-64" />
+        </div>
+      ) : (
+        <div aria-hidden="true" className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl h-48 flex items-center justify-center mb-8 text-gray-400 text-sm">
+          アイキャッチ画像
+        </div>
+      )}
 
       {/* サービス情報 + 評価 */}
       <div className="border border-gray-200 rounded-xl p-5 mb-8 space-y-5">
@@ -138,10 +144,21 @@ export default async function ReviewPage({ params }: Props) {
           </div>
         </div>
 
-        {/* アフィリエイトCTA */}
-        <span className="block w-full text-center bg-gray-200 text-gray-400 text-sm font-medium py-3 rounded-lg cursor-not-allowed">
-          {meta.service.name} を無料で試す →
-        </span>
+        {/* CTA */}
+        {meta.url ? (
+          <a
+            href={meta.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center bg-pink-600 text-white text-sm font-medium py-3 rounded-lg hover:bg-pink-700 transition-colors"
+          >
+            {meta.service.name} を無料で試す →
+          </a>
+        ) : (
+          <span className="block w-full text-center bg-gray-200 text-gray-400 text-sm font-medium py-3 rounded-lg cursor-not-allowed">
+            {meta.service.name} を無料で試す →
+          </span>
+        )}
       </div>
 
       {/* 目次 */}

@@ -77,9 +77,9 @@ export default async function ComparePage({ params }: Props) {
                 <dd>{service.priceFrom}〜</dd>
               </div>
             </dl>
-            {service.affiliateUrl ? (
+            {service.url ? (
               <a
-                href={service.affiliateUrl}
+                href={service.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-xs font-medium bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 transition-colors"
@@ -208,10 +208,10 @@ export default async function ComparePage({ params }: Props) {
         <p className="text-sm text-gray-500 mb-4">気になったサービスから始めてみましょう。</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           {meta.services.map((service) =>
-            service.affiliateUrl ? (
+            service.url ? (
               <a
                 key={service.name}
-                href={service.affiliateUrl}
+                href={service.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-pink-600 text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-pink-700 transition-colors"

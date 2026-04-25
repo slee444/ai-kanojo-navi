@@ -27,7 +27,7 @@ cons:
   - "無料プランは1日のメッセージ数に制限あり"
   - "UIが英語メインで日本語ユーザーには最初ハードルがある"
   - "成人向けコンテンツが含まれるため18歳以上限定"
-affiliateUrl: "https://crushon.ai"
+url: "https://crushon.ai"
 toc:
   - { id: "what", label: "CrushOn.AIとはどんなサービスか" }
   - { id: "setup", label: "始め方・初期設定" }

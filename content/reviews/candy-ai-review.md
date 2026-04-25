@@ -27,7 +27,7 @@ cons:
   - "無料プランはメッセージ数に制限がある"
   - "高品質な機能（音声・画像生成）は上位プランが必要"
   - "日本語UIがなく英語インターフェース"
-affiliateUrl: "https://candy.ai"
+url: "https://candy.ai"
 toc:
   - { id: "what", label: "Candy AI とは" }
   - { id: "experience", label: "実際に使った体験談" }

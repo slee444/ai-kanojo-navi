@@ -37,12 +37,12 @@ export type ReviewFrontmatter = Frontmatter & {
   rating: ReviewRating;
   pros: string[];
   cons: string[];
-  affiliateUrl: string;
+  url: string;
 };
 
 export type CompareService = {
   name: string;
-  affiliateUrl: string;
+  url: string;
   free: boolean;
   priceFrom: string;
   rating: number;
