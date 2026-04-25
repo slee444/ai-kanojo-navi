@@ -24,7 +24,12 @@ export function articleJsonLd({
     datePublished: date,
     dateModified: updatedAt ?? date,
     url: `${siteUrl}${path}`,
-    author: { "@type": "Organization", name: siteName },
+    author: {
+      "@type": "Person",
+      name: "マツケン",
+      url: siteUrl,
+      image: `${siteUrl}/images/author/matsuken.png`,
+    },
     publisher: { "@type": "Organization", name: siteName },
   };
 }

@@ -12,6 +12,7 @@ import CtaBox from "@/components/article/CtaBox";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
+import AuthorCard from "@/components/author/AuthorCard";
 
 const mdxComponents = { ConversationExample };
 
@@ -159,9 +160,11 @@ export default async function ReviewPage({ params }: Props) {
       )}
 
       {/* 本文 */}
-      <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 prose-table:text-sm mb-12">
+      <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 prose-table:text-sm mb-8">
         <MDXRemote source={content} components={mdxComponents} />
       </div>
+
+      <AuthorCard />
 
       {/* 合わせて読みたい */}
       {related.filter((a) => a.type !== "reviews").length > 0 && (

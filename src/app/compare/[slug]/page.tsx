@@ -10,6 +10,7 @@ import { buildMetadata } from "@/lib/metadata";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
+import AuthorCard from "@/components/author/AuthorCard";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -110,6 +111,8 @@ export default async function ComparePage({ params }: Props) {
       <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 mb-8">
         <MDXRemote source={content} />
       </div>
+
+      <AuthorCard />
 
       {/* 比較表 */}
       <div className="mb-10">
