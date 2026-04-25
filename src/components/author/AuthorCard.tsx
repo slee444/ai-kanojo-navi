@@ -15,6 +15,9 @@ export default function AuthorCard() {
         <p className="text-xs text-gray-500 leading-relaxed">
           複数のAI恋愛・会話サービスを実際に使い比べ、日本語ユーザー目線でわかりやすくレビューしています。初心者でも迷わず選べる情報をお届けすることを目標にしています。
         </p>
+        <p className="text-xs text-gray-400 mt-2">
+          ※ 本サイトの記事はすべて個人による体験・調査に基づく感想です。各サービスの正確な情報は公式サイトをご確認ください。
+        </p>
       </div>
     </div>
   );

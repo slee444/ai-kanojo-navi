@@ -13,6 +13,7 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
 import AuthorCard from "@/components/author/AuthorCard";
+import ArticleDisclaimer from "@/components/article/ArticleDisclaimer";
 
 const mdxComponents = { ConversationExample };
 
@@ -165,6 +166,7 @@ export default async function ReviewPage({ params }: Props) {
       </div>
 
       <AuthorCard />
+      <ArticleDisclaimer date={meta.updatedAt ?? meta.date} />
 
       {/* 合わせて読みたい */}
       {related.filter((a) => a.type !== "reviews").length > 0 && (

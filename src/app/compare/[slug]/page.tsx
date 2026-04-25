@@ -11,6 +11,7 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
 import AuthorCard from "@/components/author/AuthorCard";
+import ArticleDisclaimer from "@/components/article/ArticleDisclaimer";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -113,6 +114,7 @@ export default async function ComparePage({ params }: Props) {
       </div>
 
       <AuthorCard />
+      <ArticleDisclaimer date={meta.updatedAt ?? meta.date} />
 
       {/* 比較表 */}
       <div className="mb-10">
