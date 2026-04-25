@@ -15,6 +15,7 @@ export type Frontmatter = {
   tags: string[];
   toc?: TocItem[];
   faq?: FaqItem[];
+  eyecatch?: string;
 };
 
 export type ReviewRating = {

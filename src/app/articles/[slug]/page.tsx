@@ -51,10 +51,16 @@ export default async function ArticlePage({ params }: Props) {
         </div>
       </div>
 
-      {/* アイキャッチ領域 */}
-      <div aria-hidden="true" className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl h-48 flex items-center justify-center mb-8 text-gray-400 text-sm">
-        アイキャッチ画像
-      </div>
+      {/* アイキャッチ */}
+      {meta.eyecatch ? (
+        <div className="mb-8">
+          <img src={meta.eyecatch} alt={meta.title} className="w-full rounded-xl object-cover max-h-64" />
+        </div>
+      ) : (
+        <div aria-hidden="true" className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl h-48 flex items-center justify-center mb-8 text-gray-400 text-sm">
+          アイキャッチ画像
+        </div>
+      )}
 
       {/* 目次 */}
       {meta.toc && meta.toc.length > 0 && (
