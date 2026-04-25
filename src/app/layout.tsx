@@ -36,6 +36,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W7WDSBY4B" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5W7WDSBY4B');
+            `,
+          }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col text-gray-900 bg-white">
         <Header />
         <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-8">
