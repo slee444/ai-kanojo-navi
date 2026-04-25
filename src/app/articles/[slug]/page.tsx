@@ -7,6 +7,9 @@ import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
 import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
 import AuthorCard from "@/components/author/AuthorCard";
+import ConversationExample from "@/components/article/ConversationExample";
+
+const mdxComponents = { ConversationExample };
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -83,7 +86,7 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* 本文 */}
       <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 prose-table:text-sm mb-8">
-        <MDXRemote source={content} />
+        <MDXRemote source={content} components={mdxComponents} options={{ blockJS: false }} />
       </div>
 
       <AuthorCard />
