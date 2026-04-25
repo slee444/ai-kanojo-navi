@@ -103,7 +103,69 @@ async function generateOgp({ title, type, slug }) {
   console.log(`✓ ${outputPath}`);
 }
 
+async function generateDefault() {
+  const font = await getFont();
+  const svg = await satori(
+    {
+      type: "div",
+      props: {
+        style: {
+          width: 1200,
+          height: 630,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          background: "linear-gradient(135deg, #fff0f3 0%, #ffe4e6 100%)",
+          fontFamily: "NotoSansJP",
+        },
+        children: [
+          {
+            type: "div",
+            props: {
+              style: {
+                fontSize: 72,
+                fontWeight: 700,
+                color: "#e11d48",
+                marginBottom: 24,
+              },
+              children: "AI彼女ナビ",
+            },
+          },
+          {
+            type: "div",
+            props: {
+              style: {
+                fontSize: 32,
+                color: "#6b7280",
+                fontWeight: 700,
+              },
+              children: "AI彼女・恋愛AIアプリの比較・レビュー・おすすめ情報",
+            },
+          },
+        ],
+      },
+    },
+    {
+      width: 1200,
+      height: 630,
+      fonts: [{ name: "NotoSansJP", data: font, weight: 700 }],
+    }
+  );
+  const resvg = new Resvg(svg);
+  const png = resvg.render().asPng();
+  fs.mkdirSync(outputRoot, { recursive: true });
+  const outputPath = path.join(outputRoot, "default.png");
+  fs.writeFileSync(outputPath, png);
+  console.log(`✓ ${outputPath}`);
+}
+
 async function main() {
+  // デフォルトOGP
+  if (!fs.existsSync(path.join(outputRoot, "default.png"))) {
+    await generateDefault();
+  }
+
   const types = ["articles", "reviews", "compare"];
   for (const type of types) {
     const dir = path.join(contentRoot, type);
@@ -111,7 +173,6 @@ async function main() {
     const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
     for (const file of files) {
       const slug = file.replace(/\.mdx$/, "");
-      // すでに生成済みならスキップ
       if (fs.existsSync(path.join(outputRoot, `${slug}.png`))) continue;
       const raw = fs.readFileSync(path.join(dir, file), "utf-8");
       const { data } = matter(raw);
