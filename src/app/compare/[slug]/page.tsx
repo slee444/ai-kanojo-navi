@@ -199,16 +199,27 @@ export default async function ComparePage({ params }: Props) {
         <p className="font-semibold mb-1">まずは無料で試してみませんか？</p>
         <p className="text-sm text-gray-500 mb-4">気になったサービスから始めてみましょう。</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          {meta.services.map((service) => (
-            <span
-              key={service.name}
-              className="inline-block bg-gray-200 text-gray-400 text-sm font-medium px-5 py-2.5 rounded-lg cursor-not-allowed"
-            >
-              {service.name} を試す →
-            </span>
-          ))}
+          {meta.services.map((service) =>
+            service.affiliateUrl ? (
+              <a
+                key={service.name}
+                href={service.affiliateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-pink-600 text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-pink-700 transition-colors"
+              >
+                {service.name} を試す →
+              </a>
+            ) : (
+              <span
+                key={service.name}
+                className="inline-block bg-gray-200 text-gray-400 text-sm font-medium px-5 py-2.5 rounded-lg cursor-not-allowed"
+              >
+                {service.name} を試す →
+              </span>
+            )
+          )}
         </div>
-        <p className="text-xs text-gray-400 mt-3">※ アフィリエイトリンクを含む場合があります</p>
       </div>
 
       {/* FAQ */}
