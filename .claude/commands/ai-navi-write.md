@@ -13,7 +13,7 @@ $ARGUMENTS
 
 ## 記事の要件
 
-- **文字数**: 4,000文字前後（日本語）
+- **文字数**: 4,000文字以上8,000文字未満（日本語）
 - **フロントマター**: title, description, date（今日の日付）, tags（3〜5個）, toc, faq（3問）を必ず含める
 - **記事タイプ別の追加フロントマター**:
   - reviews: service, rating（overall/ease/japanese/features/price）, pros（3〜5個）, cons（3〜5個）, affiliateUrl（空文字でOK）
@@ -36,5 +36,6 @@ $ARGUMENTS
 
 1. `content/{type}/{slug}.mdx` に保存する
 2. ビルドを確認する: `npm run build`
-3. エラーがなければ git add・commit・push する
-4. 完了後にプレビューURL（https://ai-kanojo-navi.com/{type}/{slug}）を表示する
+3. エラーがなければ内容をユーザーに提示してレビューを求める
+4. ユーザーから承認（「OK」「公開して」等）を得てから git add・commit・push する
+5. 完了後にプレビューURL（https://ai-kanojo-navi.com/{type}/{slug}）を表示する
