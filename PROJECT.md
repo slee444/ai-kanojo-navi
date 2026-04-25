@@ -101,4 +101,8 @@ MVP完成・本番公開済み（2026-04）。次フェーズの候補:
 - 画像対応（next/image + アイキャッチ）
 - アフィリエイトリンク解禁
 - 記事本数の拡充
-- Google Search Console / Analytics 設置
+- Google Search Console 設置
+
+## 設置済みツール
+- Google Analytics 4（G-5W7WDSBY4B）✅
+- ファビコン（ピンク背景 ♡ 自動生成）✅
