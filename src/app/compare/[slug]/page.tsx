@@ -61,7 +61,7 @@ export default async function ComparePage({ params }: Props) {
       </div>
 
       {/* サービス概要カード */}
-      <div className="grid grid-cols-2 gap-3 mb-8">
+      <div className={`grid gap-3 mb-8 ${meta.services.length <= 2 ? "grid-cols-2" : "grid-cols-3"}`}>
         {meta.services.map((service) => (
           <div key={service.name} className="border border-gray-200 rounded-xl p-4 text-center">
             <p className="font-bold text-base mb-1">{service.name}</p>

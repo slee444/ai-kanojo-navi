@@ -45,6 +45,11 @@ faq:
 
 <h2 id="what">Character.AIとは</h2>
 
+<div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
+  <img src="/images/services/character-ai-icon.svg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <span style={{fontWeight:"600"}}>Character.AI（キャラクターAI）</span>
+</div>
+
 Character.AIは2022年にアメリカで公開されたAIチャットプラットフォームです。数百万以上のキャラクターが登録されており、アニメキャラ・歴史上の人物・オリジナルキャラなど幅広い相手と会話できます。
 
 ユーザー自身がキャラクターを作成・公開できるのも大きな特徴です。

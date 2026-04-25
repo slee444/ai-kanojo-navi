@@ -46,6 +46,11 @@ faq:
 
 <h2 id="what">CrushOn.AIとは</h2>
 
+<div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
+  <img src="/images/services/crushon-ai-icon.svg" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <span style={{fontWeight:"600"}}>CrushOn.AI（クラッシュオンAI）</span>
+</div>
+
 CrushOn.AIは**ロールプレイ特化型のAIチャットサービス**です。他のサービスでは制限されがちな自由度の高い会話シナリオに対応しており、幅広いキャラクターと没入感のあるやり取りを楽しめます。
 
 対応プラットフォームはiOS・Android・ブラウザで、日本からも利用可能です。

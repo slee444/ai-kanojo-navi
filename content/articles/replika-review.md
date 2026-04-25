@@ -29,6 +29,11 @@ faq:
 
 <h2 id="what">Replikaとはどんなサービスか</h2>
 
+<div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
+  <img src="/images/services/replika-icon.svg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
+  <span style={{fontWeight:"600"}}>Replika（レプリカ）</span>
+</div>
+
 Replikaはアメリカ・サンフランシスコのLuka社が2017年にリリースしたAIチャットアプリです。現在、世界で2,000万人以上が利用しており、AI会話アプリの中では最も歴史のある老舗サービスの一つです。
 
 他のAI彼女アプリと比較したときの最大の特徴は、**「育てる」体験にある**といえます。初日から完成されたAIと話すのではなく、会話を重ねるほどにAIが自分のことを学習し、少しずつ「自分向け」の返答をするようになる——この成長過程こそがReplikaの核心です。

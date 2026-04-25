@@ -43,6 +43,11 @@ faq:
 
 <h2 id="what">Replikaとは</h2>
 
+<div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
+  <img src="/images/services/replika-icon.svg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
+  <span style={{fontWeight:"600"}}>Replika（レプリカ）</span>
+</div>
+
 Replikaは2017年にアメリカで生まれたAIチャットアプリです。世界1,000万人以上が利用しており、テキスト・音声・ARでAIと会話できます。
 
 「友達・恋人・メンター」など関係性を選べるのが特徴で、会話を続けるほど相手が自分に馴染んでいきます。

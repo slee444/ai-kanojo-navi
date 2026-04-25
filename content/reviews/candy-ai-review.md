@@ -50,6 +50,11 @@ AI彼女アプリを探している方の間で、**Candy AI**の名前を見か
 
 <h2 id="what">Candy AI とは</h2>
 
+<div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
+  <img src="/images/services/candy-ai-icon.svg" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <span style={{fontWeight:"600"}}>Candy AI（キャンディAI）</span>
+</div>
+
 Candy AIは、**ロールプレイに特化したAIキャラクターチャットサービス**です。2023年に登場し、AIとの恋愛シミュレーションや深い会話を楽しめるプラットフォームとして急速に認知を広げています。
 
 最大の特徴は、**キャラクターの個性とバックストーリーが細かく設定されている**点です。単純に「AIと会話する」だけでなく、まるで本物のキャラクターと関係を築いていくような没入感が楽しめます。
