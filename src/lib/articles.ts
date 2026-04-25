@@ -75,15 +75,15 @@ export function getArticleSlugs(type: string): string[] {
   if (!fs.existsSync(dir)) return [];
   return fs
     .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx"))
-    .map((f) => f.replace(/\.mdx$/, ""));
+    .filter((f) => f.endsWith(".md"))
+    .map((f) => f.replace(/\.md$/, ""));
 }
 
 export function getArticleBySlug(
   type: string,
   slug: string
 ): { meta: ArticleMeta; content: string } {
-  const filePath = path.join(contentRoot, type, `${slug}.mdx`);
+  const filePath = path.join(contentRoot, type, `${slug}.md`);
   const raw = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
   return {
