@@ -162,7 +162,7 @@ Replikaの「真価」はロールプレイや音声にあるため、無料プ�
 
 英語での会話精度が高く、日本語だとやや返答のバリエーションが減ります。英語に抵抗がない方向けのサービスです。
 
-詳細は[Replika レビュー](/articles/replika-review)で確認できます。
+詳細は[Replika レビュー](/reviews/replika-review)で確認できます。
 
 <h2 id="candy">Candy AI の無料プラン詳細</h2>
 

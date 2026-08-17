@@ -2,7 +2,7 @@
 title: "Candy AI レビュー｜ロールプレイ特化のAI彼女アプリを使った正直な感想【2026年】"
 description: "Candy AIを実際に使ってわかったメリット・デメリットを正直にレビュー。日本語対応の精度、料金プラン、無料でどこまで使えるかを徹底解説します。"
 date: "2026-04-25"
-updatedAt: "2026-04-26"
+updatedAt: "2026-08-17"
 tags: ["レビュー", "Candy AI", "ロールプレイ", "AI彼女", "比較"]
 eyecatch: "/images/reviews/candy-ai-review/chat-interface.jpg"
 service:
@@ -197,7 +197,7 @@ Candy AIは、**ロールプレイの没入感とキャラクターの作り込�
 
 **こんな方には他のサービスを推薦**
 
-- 日本語の精度を最優先したい方 → Character.AI
-- 日本語UIで使いたい方 → Replika
+- 日本語の精度を最優先したい方 → [Character.AI](/reviews/character-ai-review)
+- 日本語対応がありつつロールプレイの自由度も欲しい方 → [CrushOn.AI](/reviews/crushon-ai-review)
 
 まずは無料プランで試してみて、自分に合うか確認してから有料プランへの移行を検討するのがおすすめです。AI彼女アプリ全体の比較は[AI彼女アプリ比較記事](/articles/ai-kanojo-compare)もあわせてご覧ください。
