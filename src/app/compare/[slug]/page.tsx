@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import {
   getArticleBySlug,
   getArticleSlugs,
@@ -113,7 +114,11 @@ export default async function ComparePage({ params }: Props) {
 
       {/* 導入文・本文 */}
       <div className="prose prose-sm max-w-none prose-headings:font-semibold prose-a:text-pink-600 mb-8">
-        <MDXRemote source={content} components={mdxComponents} options={{ blockJS: false }} />
+        <MDXRemote
+          source={content}
+          components={mdxComponents}
+          options={{ blockJS: false, mdxOptions: { remarkPlugins: [remarkGfm] } }}
+        />
       </div>
 
       <AuthorCard />
