@@ -167,7 +167,7 @@ CrushOn.AIの核心はここです。他サービスでは対応できない自�
 | 月額（最安）     | 約¥1,800  | 約¥1,500     | 約¥900     |
 | 英語前提か       | Yes        | No           | Yes        |
 
-ロールプレイの自由度ではCrushOn.AIとCandy AIが双璧ですが、Candy AIはビジュアル面・世界観の作り込みに強みがあります。日本語で手軽に楽しみたいなら[Character.AI](/reviews/character-ai-review)、ロールプレイの没入感を最大化したいならCrushOn.AIが選択肢になります。
+ロールプレイの自由度ではCrushOn.AIとCandy AIが双璧ですが、Candy AIはビジュアル面・世界観の作り込みに強みがあります。日本語で手軽に楽しみたいなら[Character.AI](/reviews/character-ai-review)、ロールプレイの没入感を最大化したいならCrushOn.AIが選択肢になります。1,000体以上のキャラクターとビジュアルノベル風の恋愛を楽しみたい方は[Luvlinx](/articles/luvlinx-to-wa)も比較対象になります。
 
 <h2 id="who">向いている人・向いていない人</h2>
 

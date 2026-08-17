@@ -170,9 +170,9 @@ async function main() {
   for (const type of types) {
     const dir = path.join(contentRoot, type);
     if (!fs.existsSync(dir)) continue;
-    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
     for (const file of files) {
-      const slug = file.replace(/\.mdx$/, "");
+      const slug = file.replace(/\.md$/, "");
       if (fs.existsSync(path.join(outputRoot, `${slug}.png`))) continue;
       const raw = fs.readFileSync(path.join(dir, file), "utf-8");
       const { data } = matter(raw);
