@@ -33,6 +33,7 @@ export default function Home() {
   const articles = getAllArticles("articles");
   const recent = articles.slice(0, 5);
   const compareArticles = getAllArticles("compare").slice(0, 2) as ArticleMeta[];
+  const reviewArticles = getAllArticles("reviews").slice(0, 3) as ArticleMeta[];
 
   return (
     <div className="space-y-14">
@@ -82,6 +83,28 @@ export default function Home() {
           {compareArticles.map((article) => (
             <li key={article.slug} className="border border-gray-200 rounded-lg p-4">
               <Link href={`/compare/${article.slug}`} className="group block">
+                <p className="font-medium group-hover:text-pink-600 transition-colors">
+                  {article.title}
+                </p>
+                <p className="text-sm text-gray-500 mt-1">{article.description}</p>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* レビューピックアップ */}
+      <section>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-lg font-semibold">人気レビュー</h2>
+          <Link href="/reviews" className="text-sm text-pink-600 hover:underline">
+            もっと見る →
+          </Link>
+        </div>
+        <ul className="space-y-3">
+          {reviewArticles.map((article) => (
+            <li key={article.slug} className="border border-gray-200 rounded-lg p-4">
+              <Link href={`/reviews/${article.slug}`} className="group block">
                 <p className="font-medium group-hover:text-pink-600 transition-colors">
                   {article.title}
                 </p>

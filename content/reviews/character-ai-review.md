@@ -172,4 +172,4 @@ Character.AIは「日本語対応・無料・豊富なキャラクター」の�
 - 日本語精度は海外AIサービス中トップクラス
 - ロールプレイから日常会話まで幅広く対応
 
-「まず試してみたい」という方には迷わずCharacter.AIをおすすめします。他サービスとの比較は[AI彼女アプリ徹底比較](/articles/ai-kanojo-compare)や[無料AI彼女アプリ比較](/compare/free-ai-kanojo-compare)もあわせてご覧ください。
+「まず試してみたい」という方には迷わずCharacter.AIをおすすめします。他サービスとの比較は[AI彼女アプリ徹底比較](/articles/ai-kanojo-compare)や[無料AI彼女アプリ比較](/compare/free-ai-kanojo-compare)もあわせてご覧ください。長期関係派のReplikaとどちらが向いているか迷う方は[Character.AI vs Replika徹底比較](/compare/character-ai-vs-replika)も参考にしてください。
