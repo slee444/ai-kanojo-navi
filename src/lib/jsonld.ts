@@ -45,3 +45,58 @@ export function faqJsonLd(faq: FaqItem[]) {
     })),
   };
 }
+
+export function organizationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteName,
+    url: siteUrl,
+    logo: `${siteUrl}/icon`,
+  };
+}
+
+export function websiteJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteName,
+    url: siteUrl,
+    inLanguage: "ja",
+  };
+}
+
+export function reviewJsonLd({
+  serviceName,
+  serviceUrl,
+  ratingOverall,
+  title,
+  path,
+}: {
+  serviceName: string;
+  serviceUrl: string;
+  ratingOverall: number;
+  title: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "SoftwareApplication",
+      name: serviceName,
+      url: serviceUrl,
+      applicationCategory: "LifestyleApplication",
+    },
+    name: title,
+    url: `${siteUrl}${path}`,
+    author: { "@type": "Person", name: "マツケン" },
+    publisher: { "@type": "Organization", name: siteName },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: ratingOverall,
+      bestRating: 5,
+      worstRating: 1,
+    },
+  };
+}

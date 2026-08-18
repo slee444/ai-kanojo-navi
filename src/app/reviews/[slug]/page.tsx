@@ -12,7 +12,7 @@ import ConversationExample from "@/components/article/ConversationExample";
 import CtaBox from "@/components/article/CtaBox";
 import Breadcrumb from "@/components/layout/Breadcrumb";
 import JsonLd from "@/components/JsonLd";
-import { articleJsonLd, faqJsonLd } from "@/lib/jsonld";
+import { articleJsonLd, faqJsonLd, reviewJsonLd } from "@/lib/jsonld";
 import AuthorCard from "@/components/author/AuthorCard";
 import ArticleDisclaimer from "@/components/article/ArticleDisclaimer";
 
@@ -56,6 +56,15 @@ export default async function ReviewPage({ params }: Props) {
     <article className="max-w-2xl mx-auto">
       <JsonLd data={articleJsonLd({ title: meta.title, description: meta.description, date: meta.date, updatedAt: meta.updatedAt, path: `/reviews/${slug}` })} />
       {meta.faq && meta.faq.length > 0 && <JsonLd data={faqJsonLd(meta.faq)} />}
+      <JsonLd
+        data={reviewJsonLd({
+          serviceName: meta.service.name,
+          serviceUrl: meta.service.url,
+          ratingOverall: meta.rating.overall,
+          title: meta.title,
+          path: `/reviews/${slug}`,
+        })}
+      />
       <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "レビュー一覧", href: "/reviews" }, { label: meta.title }]} />
       {/* ヘッダー */}
       <div className="mb-8">

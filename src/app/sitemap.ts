@@ -1,39 +1,47 @@
 import type { MetadataRoute } from "next";
-import { getArticleSlugs } from "@/lib/articles";
+import { getAllArticles } from "@/lib/articles";
 
 export const dynamic = "force-static";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-kanojo-navi.com";
 
+function latestLastMod(articles: { date: string; updatedAt?: string }[]): string | undefined {
+  const dates = articles.map((a) => a.updatedAt ?? a.date);
+  return dates.sort().at(-1);
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const articleSlugs = getArticleSlugs("articles");
-  const reviewSlugs = getArticleSlugs("reviews");
-  const compareSlugs = getArticleSlugs("compare");
+  const articles = getAllArticles("articles");
+  const reviews = getAllArticles("reviews");
+  const compares = getAllArticles("compare");
 
-  const staticPages = ["/", "/articles", "/reviews", "/compare", "/tags"].map(
-    (path) => ({
-      url: `${siteUrl}${path}`,
-      changeFrequency: "weekly" as const,
-      priority: path === "/" ? 1.0 : 0.8,
-    })
-  );
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: `${siteUrl}/`, changeFrequency: "weekly", priority: 1.0, lastModified: latestLastMod(articles) },
+    { url: `${siteUrl}/articles`, changeFrequency: "weekly", priority: 0.8, lastModified: latestLastMod(articles) },
+    { url: `${siteUrl}/reviews`, changeFrequency: "weekly", priority: 0.8, lastModified: latestLastMod(reviews) },
+    { url: `${siteUrl}/compare`, changeFrequency: "weekly", priority: 0.8, lastModified: latestLastMod(compares) },
+    { url: `${siteUrl}/tags`, changeFrequency: "weekly", priority: 0.8 },
+  ];
 
-  const articlePages = articleSlugs.map((slug) => ({
-    url: `${siteUrl}/articles/${slug}`,
+  const articlePages = articles.map((a) => ({
+    url: `${siteUrl}/articles/${a.slug}`,
     changeFrequency: "monthly" as const,
     priority: 0.7,
+    lastModified: a.updatedAt ?? a.date,
   }));
 
-  const reviewPages = reviewSlugs.map((slug) => ({
-    url: `${siteUrl}/reviews/${slug}`,
+  const reviewPages = reviews.map((a) => ({
+    url: `${siteUrl}/reviews/${a.slug}`,
     changeFrequency: "monthly" as const,
     priority: 0.7,
+    lastModified: a.updatedAt ?? a.date,
   }));
 
-  const comparePages = compareSlugs.map((slug) => ({
-    url: `${siteUrl}/compare/${slug}`,
+  const comparePages = compares.map((a) => ({
+    url: `${siteUrl}/compare/${a.slug}`,
     changeFrequency: "monthly" as const,
     priority: 0.7,
+    lastModified: a.updatedAt ?? a.date,
   }));
 
   return [...staticPages, ...articlePages, ...reviewPages, ...comparePages];

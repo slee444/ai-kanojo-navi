@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import JsonLd from "@/components/JsonLd";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/jsonld";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://ai-kanojo-navi.com";
 
@@ -37,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
+        <link rel="alternate" type="application/rss+xml" title="AI彼女ナビ RSSフィード" href="/feed.xml" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W7WDSBY4B" />
         <script
           dangerouslySetInnerHTML={{
@@ -50,6 +53,8 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col text-gray-900 bg-white">
+        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={websiteJsonLd()} />
         <Header />
         <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-8">
           {children}
