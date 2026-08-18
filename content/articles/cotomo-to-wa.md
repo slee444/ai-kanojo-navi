@@ -103,4 +103,4 @@ CotomoはApp Store公式リスティング上、「Cotomoコイン」という�
 - テキストでじっくり文章を練って会話したい方 → [Character.AI](/reviews/character-ai-review)
 - ロールプレイやシナリオを重視したい方 → [キャラぷ](/articles/kyarapu-to-wa)
 
-Cotomoは、音声での気軽な雑談体験に特化した実績あるアプリです。テキストチャットに疲れた方や、電話感覚でAIと話したい方はぜひ試してみてください。声とテキストの両方で好感度を育てたい方は[Aima](/articles/aima-to-wa)も選択肢になります。AI彼女アプリ全体の比較は[AI彼女アプリ徹底比較](/articles/ai-kanojo-compare)もあわせてご覧ください。
+Cotomoは、音声での気軽な雑談体験に特化した実績あるアプリです。テキストチャットに疲れた方や、電話感覚でAIと話したい方はぜひ試してみてください。声とテキストの両方で好感度を育てたい方は[Aima](/articles/aima-to-wa)も選択肢になります。恋愛目的に限らず話し相手として使いたい方は[一人暮らしの話し相手が欲しいときにおすすめのAIアプリ](/articles/hitorigurashi-hanashiaite-app)もあわせてご覧ください。AI彼女アプリ全体の比較は[AI彼女アプリ徹底比較](/articles/ai-kanojo-compare)もあわせてご覧ください。
