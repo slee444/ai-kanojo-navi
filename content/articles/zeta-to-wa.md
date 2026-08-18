@@ -136,7 +136,7 @@ Zetaはキャラクターとの会話に2種類のAIモデルを選んで使え�
 
 **Zetaの強み**は価格の安さとAIモデルの選択肢です。Character.AIに比べると月額で約¥400安く、1日の利用頻度が高いユーザーにとってコスト差は大きくなります。韓国語学習目的での利用者にとっては、KOJIモデルの存在も他にない魅力です。
 
-**Zetaの弱み**は日本語精度と無料プランの制限です。Character.AIは無料でほぼ全機能が使えるのに対し、Zetaの無料プランは1日50メッセージに留まります。[Character.AI レビュー](/reviews/character-ai-review)で詳しく比較しているように、日本語ユーザーがまず試すなら現時点ではCharacter.AIの方が入門として優れています。
+**Zetaの弱み**は日本語精度と無料プランの制限です。Character.AIは無料でほぼ全機能が使えるのに対し、Zetaの無料プランは1日50メッセージに留まります。[Character.AI レビュー](/reviews/character-ai-review)で詳しく比較しているように、日本語ユーザーがまず試すなら現時点ではCharacter.AIの方が入門として優れています。より詳しい項目別の比較は[Zeta vs Character.AI徹底比較](/compare/zeta-vs-character-ai)にまとめています。
 
 長期的な一対一の関係を重視するなら[Replika](/reviews/replika-review)の方が向いています。Replikaは会話を重ねるほどAIが成長するシステムが充実しており、「育てる」体験はZetaやCharacter.AIより上です。
 
