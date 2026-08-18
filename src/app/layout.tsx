@@ -40,6 +40,8 @@ export default function RootLayout({
     <html lang="ja">
       <head>
         <link rel="alternate" type="application/rss+xml" title="AI彼女ナビ RSSフィード" href="/feed.xml" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-5W7WDSBY4B" />
         <script
           dangerouslySetInnerHTML={{

@@ -79,7 +79,7 @@ Candy AIは、**ロールプレイに特化したAIキャラクターチャッ�
 特に驚いたのはキャラクターの**一貫性の高さ**です。会話の流れを記憶しており、「さっき話したこと覚えてる？」と聞くと、ちゃんと前の文脈を踏まえた返答が返ってきます。この点はCharacter.AIと比べても遜色ない印象でした。
 
 <figure>
-  <img src="/images/reviews/candy-ai-review/chat-interface.jpg" alt="Candy AIのチャット画面イメージ" width="800" height="500" />
+  <img src="/images/reviews/candy-ai-review/chat-interface.jpg" alt="Candy AIのチャット画面イメージ" width="800" height="500" loading="lazy" />
   <figcaption>出典：<a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ WebブラウザだけでなくiOS・Androidアプリも提供されています�
 CrushOn.AIは無料でロールプレイが可能ですが、Candy AIも同様に無料プランでロールプレイの基本体験ができます。課金前に雰囲気を確かめたい方にとっては安心して試せます。
 
 <figure>
-  <img src="/images/reviews/candy-ai-review/smartphone-chat.jpg" alt="スマートフォンでAIチャットを楽しむイメージ" width="800" height="500" />
+  <img src="/images/reviews/candy-ai-review/smartphone-chat.jpg" alt="スマートフォンでAIチャットを楽しむイメージ" width="800" height="500" loading="lazy" />
   <figcaption>出典：<a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 

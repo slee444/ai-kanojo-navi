@@ -79,7 +79,7 @@ AI彼女・AI会話アプリを探していると必ず名前が挙がる2大サ
 </div>
 
 <figure>
-  <img src="/images/compare/character-ai-vs-replika/ai-chat.jpg" alt="AIチャットサービスのイメージ" width="800" height="500" />
+  <img src="/images/compare/character-ai-vs-replika/ai-chat.jpg" alt="AIチャットサービスのイメージ" width="800" height="500" loading="lazy" />
   <figcaption>出典：<a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ Character.AIも共感的な返答が可能ですが、Replikaほど「感情サ�
 Character.AIはロールプレイへの切り替えがスムーズで、Replikaは感情への寄り添いが丁寧です。目的に応じて使い分けるのが理想的です。
 
 <figure>
-  <img src="/images/compare/character-ai-vs-replika/ai-robot.jpg" alt="AI技術のイメージ" width="800" height="500" />
+  <img src="/images/compare/character-ai-vs-replika/ai-robot.jpg" alt="AI技術のイメージ" width="800" height="500" loading="lazy" />
   <figcaption>出典：<a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 

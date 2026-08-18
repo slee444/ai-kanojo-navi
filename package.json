@@ -6,7 +6,8 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-ogp.mjs",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "indexnow": "node scripts/indexnow-submit.mjs"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

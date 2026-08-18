@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
 import Breadcrumb from "@/components/layout/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { itemListJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "記事一覧",
@@ -12,6 +14,9 @@ export default function ArticlesPage() {
   const articles = getAllArticles("articles");
   return (
     <div>
+      <JsonLd
+        data={itemListJsonLd(articles.map((a) => ({ title: a.title, path: `/articles/${a.slug}` })))}
+      />
       <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "記事一覧" }]} />
       <h1 className="text-2xl font-bold mb-6">記事一覧</h1>
       <ul className="space-y-6">

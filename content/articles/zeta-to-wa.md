@@ -42,7 +42,7 @@ Zetaは「自分だけのキャラクターを作り、そのキャラクター�
 対応プラットフォームはiOS・Android・Webブラウザ。日本からも問題なく利用でき、サービス自体は日本語に対応しています。
 
 <figure>
-  <img src="/images/articles/zeta-to-wa/eyecatch.jpg" alt="AIチャットアプリのイメージ" width="800" height="500" />
+  <img src="/images/articles/zeta-to-wa/eyecatch.jpg" alt="AIチャットアプリのイメージ" width="800" height="500" loading="lazy" />
   <figcaption>出典：<a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 

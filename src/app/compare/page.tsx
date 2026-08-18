@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
 import Breadcrumb from "@/components/layout/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { itemListJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "比較記事一覧",
@@ -13,6 +15,9 @@ export default function ComparePage() {
 
   return (
     <div>
+      <JsonLd
+        data={itemListJsonLd(articles.map((a) => ({ title: a.title, path: `/compare/${a.slug}` })))}
+      />
       <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "比較記事一覧" }]} />
       <h1 className="text-2xl font-bold mb-2">比較記事一覧</h1>
       <p className="text-gray-500 text-sm mb-8">

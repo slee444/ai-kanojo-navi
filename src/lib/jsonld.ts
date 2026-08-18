@@ -46,6 +46,19 @@ export function faqJsonLd(faq: FaqItem[]) {
   };
 }
 
+export function itemListJsonLd(items: { title: string; path: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${siteUrl}${item.path}`,
+      name: item.title,
+    })),
+  };
+}
+
 export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",

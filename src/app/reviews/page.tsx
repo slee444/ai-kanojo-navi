@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
 import type { ReviewFrontmatter } from "@/lib/articles";
 import Breadcrumb from "@/components/layout/Breadcrumb";
+import JsonLd from "@/components/JsonLd";
+import { itemListJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "レビュー一覧",
@@ -14,6 +16,9 @@ export default function ReviewsPage() {
 
   return (
     <div>
+      <JsonLd
+        data={itemListJsonLd(reviews.map((a) => ({ title: a.title, path: `/reviews/${a.slug}` })))}
+      />
       <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "レビュー一覧" }]} />
       <h1 className="text-2xl font-bold mb-2">レビュー一覧</h1>
       <p className="text-gray-500 text-sm mb-8">実際に使った正直なレビューをまとめています。</p>
