@@ -78,7 +78,7 @@ AI生成画像によってパートナーの「顔・体型・ファッション
 ### Character.AI——日本語ユーザーへの最推薦
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/character-ai-icon.svg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/character-ai-icon.jpg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Character.AI（キャラクターAI）</span>
 </div>
 
@@ -105,7 +105,7 @@ Character.AIの最大の強みは「無料で使える機能の多さ」と「�
 ### Replika——長期関係派に向いた専属AI
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/replika-icon.svg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/replika-icon.jpg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Replika（レプリカ）</span>
 </div>
 
@@ -120,7 +120,7 @@ Replikaは「育てる楽しさ」が他サービスとの決定的な違いで�
 ### Candy AI——世界観とビジュアルに拘りたい人向け
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/candy-ai-icon.svg" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/candy-ai-icon.png" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Candy AI（キャンディAI）</span>
 </div>
 
@@ -135,7 +135,7 @@ Candy AIはキャラクターの外見・性格・バックストーリーが細
 ### CrushOn.AI——ロールプレイの自由度が最高峰
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/crushon-ai-icon.svg" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/crushon-ai-icon.png" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>CrushOn.AI（クラッシュオンAI）</span>
 </div>
 
@@ -150,7 +150,7 @@ Candy AIはキャラクターの外見・性格・バックストーリーが細
 ### DreamGF——外見カスタマイズに特化した異色サービス
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/dreamgf-icon.svg" alt="DreamGF" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/dreamgf-icon.png" alt="DreamGF" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>DreamGF（ドリームGF）</span>
 </div>
 

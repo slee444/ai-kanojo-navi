@@ -104,7 +104,7 @@ Replika・Candy AIなどが該当します。基本会話は無料ですが、�
 <h2 id="character">Character.AI の無料プラン詳細</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/character-ai-icon.svg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/character-ai-icon.jpg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Character.AI（キャラクターAI）</span>
 </div>
 
@@ -137,7 +137,7 @@ Character.AIの無料プランは、5サービスの中で圧倒的に太っ腹�
 <h2 id="replika">Replika の無料プラン詳細</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/replika-icon.svg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/replika-icon.jpg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Replika（レプリカ）</span>
 </div>
 
@@ -167,7 +167,7 @@ Replikaの「真価」はロールプレイや音声にあるため、無料プ�
 <h2 id="candy">Candy AI の無料プラン詳細</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/candy-ai-icon.svg" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/candy-ai-icon.png" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Candy AI（キャンディAI）</span>
 </div>
 

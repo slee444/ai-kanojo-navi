@@ -28,7 +28,7 @@ faq:
 <h2 id="what">Cotomoとは</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/cotomo-icon.svg" alt="Cotomo" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/cotomo-icon.jpg" alt="Cotomo" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Cotomo（コトモ）</span>
 </div>
 

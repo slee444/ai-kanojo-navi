@@ -28,7 +28,7 @@ faq:
 <h2 id="what">PolyBuzzとは</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/polybuzz-icon.svg" alt="PolyBuzz" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/polybuzz-icon.jpg" alt="PolyBuzz" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>PolyBuzz（ポリバズ）</span>
 </div>
 

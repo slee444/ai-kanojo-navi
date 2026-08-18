@@ -65,14 +65,14 @@ AI彼女・AI会話アプリを探していると必ず名前が挙がる2大サ
 <h2 id="intro">両サービスの概要</h2>
 
 <div style={{display:"flex", gap:"16px", alignItems:"center", marginBottom:"16px"}}>
-  <img src="/images/services/character-ai-icon.svg" alt="Character.AI" width="48" height="48" style={{borderRadius:"8px"}} />
+  <img src="/images/services/character-ai-icon.jpg" alt="Character.AI" width="48" height="48" style={{borderRadius:"8px"}} />
   <div>
     <strong>Character.AI</strong>（キャラクターAI）は2022年に登場したAIチャットプラットフォームです。数百万以上のキャラクターと会話できるのが最大の特徴で、有名キャラのAIからユーザーが作ったオリジナルキャラまで選択肢が豊富です。日本語対応の精度が高く、無料でほぼ全機能が使えます。
   </div>
 </div>
 
 <div style={{display:"flex", gap:"16px", alignItems:"center", marginBottom:"24px"}}>
-  <img src="/images/services/replika-icon.svg" alt="Replika" width="48" height="48" style={{borderRadius:"8px"}} />
+  <img src="/images/services/replika-icon.jpg" alt="Replika" width="48" height="48" style={{borderRadius:"8px"}} />
   <div>
     <strong>Replika</strong>（レプリカ）は2017年登場の老舗AIチャットアプリです。1人のAIパートナーと長期的に関係を育てることに特化しており、会話を重ねるほど自分に寄り添うよう成長します。感情サポートに強みがありますが、英語前提のサービスです。
   </div>

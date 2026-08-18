@@ -29,7 +29,7 @@ AIと自分だけのストーリーを紡ぎたい——そんな願いを叶え
 <h2 id="what">Zetaとは</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/zeta-icon.svg" alt="Zeta" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/zeta-icon.jpg" alt="Zeta" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Zeta（ゼータ）</span>
 </div>
 

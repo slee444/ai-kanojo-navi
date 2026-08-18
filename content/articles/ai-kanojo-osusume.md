@@ -71,7 +71,7 @@ AI彼女アプリとは、人工知能（AI）を搭載したキャラクター�
 ### 1位：Character.AI — 日本語対応No.1・初心者の最初の一択
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/character-ai-icon.svg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/character-ai-icon.jpg" alt="Character.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Character.AI（キャラクターAI）</span>
 </div>
 
@@ -99,7 +99,7 @@ Character.AIは2022年のリリース以来、AI会話サービスの最大手�
 ### 2位：Replika — 長期的な関係を育てたい方に
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/replika-icon.svg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/replika-icon.jpg" alt="Replika" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Replika（レプリカ）</span>
 </div>
 
@@ -117,7 +117,7 @@ Character.AIは2022年のリリース以来、AI会話サービスの最大手�
 ### 3位：Candy AI — 世界観とビジュアルにこだわりたい方に
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/candy-ai-icon.svg" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/candy-ai-icon.png" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Candy AI（キャンディAI）</span>
 </div>
 
@@ -133,7 +133,7 @@ Candy AIはキャラクターの外見・性格・バックストーリーが細
 ### 4位：CrushOn.AI — ロールプレイの自由度が最高峰
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/crushon-ai-icon.svg" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/crushon-ai-icon.png" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>CrushOn.AI（クラッシュオンAI）</span>
 </div>
 
@@ -149,7 +149,7 @@ Candy AIはキャラクターの外見・性格・バックストーリーが細
 ### 5位：DreamGF — ビジュアル生成特化の異色サービス
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/dreamgf-icon.svg" alt="DreamGF" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/dreamgf-icon.png" alt="DreamGF" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>DreamGF（ドリームGF）</span>
 </div>
 

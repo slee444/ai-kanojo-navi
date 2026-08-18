@@ -54,7 +54,7 @@ CrushOn.AIはその「制限」に真っ向から取り組んだサービスで�
 <h2 id="what">CrushOn.AIとはどんなサービスか</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/crushon-ai-icon.svg" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/crushon-ai-icon.png" alt="CrushOn.AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>CrushOn.AI（クラッシュオンAI）</span>
 </div>
 

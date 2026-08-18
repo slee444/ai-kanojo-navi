@@ -53,7 +53,7 @@ AI彼女アプリを探している方の間で、**Candy AI**の名前を見か
 <h2 id="what">Candy AI とは</h2>
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
-  <img src="/images/services/candy-ai-icon.svg" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
+  <img src="/images/services/candy-ai-icon.png" alt="Candy AI" width="36" height="36" style={{borderRadius:"8px"}} />
   <span style={{fontWeight:"600"}}>Candy AI（キャンディAI）</span>
 </div>
 
