@@ -106,7 +106,7 @@ AIとの会話が心地よすぎて、気づかないうちに長時間利用し
 
 ここまで紹介したタイプ分けを踏まえて、目的別に最適なサービスを選ぶ視点をまとめます。
 
-- **とにかく無料でたくさん試したい** → [AI彼女アプリおすすめ5選](/articles/ai-kanojo-osusume)
+- **とにかく無料でたくさん試したい** → [AI彼女アプリおすすめ8選](/articles/ai-kanojo-osusume)
 - **各サービスをじっくり比較検討したい** → [AI彼女アプリ徹底比較](/articles/ai-kanojo-compare)
 - **課金せずにどこまで使えるか知りたい** → [無料AI彼女アプリ比較](/compare/free-ai-kanojo-compare)
 - **特定の2サービスで迷っている** → [Character.AI vs Replika徹底比較](/compare/character-ai-vs-replika)
