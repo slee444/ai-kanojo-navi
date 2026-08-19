@@ -69,7 +69,12 @@ export default async function TagPage({ params }: Props) {
                   <p className="text-xs text-gray-500">{article.description}</p>
                 </div>
                 <time className="text-xs text-gray-400 shrink-0 ml-4 mt-0.5">
-                  {article.date}
+                  公開: {article.date}
+                  {article.updatedAt && article.updatedAt !== article.date && (
+                    <>
+                      <br />更新: {article.updatedAt}
+                    </>
+                  )}
                 </time>
               </Link>
             </li>

@@ -29,7 +29,10 @@ export default function ArticlesPage() {
               <p className="text-sm text-gray-500 mt-1">{article.description}</p>
             </Link>
             <div className="flex items-center gap-3 mt-2">
-              <span className="text-xs text-gray-400">{article.date}</span>
+              <span className="text-xs text-gray-400">
+                公開: {article.date}
+                {article.updatedAt && article.updatedAt !== article.date && ` / 更新: ${article.updatedAt}`}
+              </span>
               {article.tags.map((tag) => (
                 <Link
                   key={tag}

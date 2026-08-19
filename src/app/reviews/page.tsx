@@ -34,7 +34,10 @@ export default function ReviewsPage() {
                   <p className="text-sm text-gray-500">{review.description}</p>
                 </Link>
                 <div className="flex items-center gap-3">
-                  <span className="text-xs text-gray-400">{review.date}</span>
+                  <span className="text-xs text-gray-400">
+                    公開: {review.date}
+                    {review.updatedAt && review.updatedAt !== review.date && ` / 更新: ${review.updatedAt}`}
+                  </span>
                   {review.tags.map((tag) => (
                     <Link
                       key={tag}

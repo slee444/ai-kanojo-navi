@@ -33,7 +33,10 @@ export default function ComparePage() {
               <p className="text-sm text-gray-500">{article.description}</p>
             </Link>
             <div className="flex items-center gap-3">
-              <time className="text-xs text-gray-400">{article.date}</time>
+              <time className="text-xs text-gray-400">
+                公開: {article.date}
+                {article.updatedAt && article.updatedAt !== article.date && ` / 更新: ${article.updatedAt}`}
+              </time>
               {article.tags.map((tag) => (
                 <Link
                   key={tag}
