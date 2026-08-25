@@ -2,7 +2,7 @@
 title: "無料AI彼女アプリ比較【2026年版】課金なしでどこまで使える？3サービスを正直検証"
 description: "無料で使えるAI彼女・恋愛AIアプリを徹底比較。Character.AI・Replika・Candy AIの無料プランでできることを正直に解説します。"
 date: "2026-04-22"
-updatedAt: "2026-04-26"
+updatedAt: "2026-08-26"
 tags: ["比較", "無料", "初心者向け"]
 eyecatch: "/images/compare/free-ai-kanojo-compare/eyecatch.jpg"
 services:
@@ -132,7 +132,7 @@ Character.AIの無料プランは、5サービスの中で圧倒的に太っ腹�
   ]}
 />
 
-詳細は[Character.AI レビュー](/reviews/character-ai-review)で確認できます。
+詳細は[Character.AI レビュー](/reviews/character-ai-review)で確認できます。口コミ・評判は[Character.AIは危険？口コミ・評判を正直に検証](/articles/character-ai-kiken-hyouban)にまとめています。
 
 <h2 id="replika">Replika の無料プラン詳細</h2>
 
@@ -162,7 +162,7 @@ Replikaの「真価」はロールプレイや音声にあるため、無料プ�
 
 英語での会話精度が高く、日本語だとやや返答のバリエーションが減ります。英語に抵抗がない方向けのサービスです。
 
-詳細は[Replika レビュー](/reviews/replika-review)で確認できます。
+詳細は[Replika レビュー](/reviews/replika-review)で確認できます。口コミ・評判は[Replikaは危険？口コミ・評判を正直に検証](/articles/replika-kiken-hyouban)にまとめています。
 
 <h2 id="candy">Candy AI の無料プラン詳細</h2>
 
@@ -223,4 +223,4 @@ Candy AIの無料プランは「雰囲気を試すための入口」と割り切
 
 Replikaは「感情サポート・英語OK」という特定のニーズがある方向け、Candy AIは「ビジュアルと世界観を試したい」方向けのお試しとして活用してください。
 
-「無料でどれを選ぶか」という問いに対する答えはCharacter.AIです。まず試してみて、AI彼女アプリの楽しさを体験してから、自分に合ったサービスを改めて検討しましょう。他のサービスとの詳細な比較は[AI彼女アプリ徹底比較2026](/articles/ai-kanojo-compare)、より多くのサービスの無料範囲を一覧で見たい方は[AI彼女アプリ完全無料比較（15サービス）](/articles/ai-kanojo-kanzen-muryou)もあわせてご覧ください。
+「無料でどれを選ぶか」という問いに対する答えはCharacter.AIです。まず試してみて、AI彼女アプリの楽しさを体験してから、自分に合ったサービスを改めて検討しましょう。他のサービスとの詳細な比較は[AI彼女アプリ徹底比較2026](/articles/ai-kanojo-compare)、より多くのサービスの無料範囲を一覧で見たい方は[AI彼女アプリ完全無料比較（15サービス）](/articles/ai-kanojo-kanzen-muryou)もあわせてご覧ください。自分に合う性格タイプから選びたい方は[AI彼女 タイプ診断](/articles/ai-kanojo-seikaku-betsu)も参考になります。

@@ -2,7 +2,7 @@
 title: "CrushOn.AI レビュー｜制限なしロールプレイの実態を1ヶ月使って正直に語る【2026年】"
 description: "CrushOn.AIを1ヶ月間使い込んだ筆者が、ロールプレイの自由度・日本語対応の限界・料金の妥当性を正直にレビュー。向いている人・向いていない人も明確にします。"
 date: "2026-04-21"
-updatedAt: "2026-08-17"
+updatedAt: "2026-08-26"
 tags: ["レビュー", "CrushOn.AI", "ロールプレイ"]
 eyecatch: "/images/reviews/crushon-ai-review/eyecatch.jpg"
 service:
@@ -184,7 +184,7 @@ CrushOn.AIの核心はここです。他サービスでは対応できない自�
 - UIの英語に抵抗がある
 - まずAI会話を気軽に試したい初心者
 
-日本語ユーザーで「まず試したい」という方には[Character.AI](/reviews/character-ai-review)の方が適しています。英語に慣れていて、自由なロールプレイを最優先するなら、CrushOn.AIは有力な選択肢です。
+日本語ユーザーで「まず試したい」という方には[Character.AI](/reviews/character-ai-review)の方が適しています（口コミ・評判は[Character.AIは危険？口コミ・評判を正直に検証](/articles/character-ai-kiken-hyouban)を参照）。英語に慣れていて、自由なロールプレイを最優先するなら、CrushOn.AIは有力な選択肢です。
 
 <h2 id="summary">まとめ</h2>
 
@@ -194,4 +194,4 @@ CrushOn.AIは「ロールプレイの自由度」という明確な強みを持�
 - 日本語ユーザーや無料利用が前提の方にはCharacter.AIの方が適している
 - 有料に移行してこそ真価を発揮するサービス
 
-「他サービスでは物足りない」と感じている方が次に試すサービスとして、CrushOn.AIは理にかなった選択です。まずは無料プランで雰囲気を確かめてから、自分に合うか判断することをおすすめします。
+「他サービスでは物足りない」と感じている方が次に試すサービスとして、CrushOn.AIは理にかなった選択です。まずは無料プランで雰囲気を確かめてから、自分に合うか判断することをおすすめします。自分に合う性格タイプから探したい方は[AI彼女 タイプ診断](/articles/ai-kanojo-seikaku-betsu)も参考にしてください。
