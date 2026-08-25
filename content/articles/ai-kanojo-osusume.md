@@ -74,7 +74,7 @@ AI彼女アプリとは、人工知能（AI）を搭載したキャラクター�
 
 <div style={{display:"flex", gap:"10px", alignItems:"center", margin:"8px 0 12px"}}>
   <img src="/images/services/zeta-icon.jpg" alt="Zeta" width="36" height="36" style={{borderRadius:"8px"}} />
-  <span style={{fontWeight:"600"}}>Zeta（ゼータ）</span>
+  <span style={{fontWeight:"600"}}>Zeta（ゼタ）</span>
 </div>
 
 **おすすめ度：★★★★★**
